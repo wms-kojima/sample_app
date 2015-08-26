@@ -12,6 +12,7 @@ gem 'bcrypt-ruby'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'rspec-its'
   gem 'guard'
   gem 'guard-rspec'
   gem 'spork-rails'
@@ -23,6 +24,8 @@ group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
   gem 'factory_girl_rails'
+  gem 'cucumber-rails'
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 # Use SCSS for stylesheets
