@@ -6,6 +6,7 @@ gem 'rails', '4.2.0'
 gem 'bootstrap-sass'
 gem 'sprockets'
 gem 'haml-rails'
+gem 'bcrypt-ruby'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do
